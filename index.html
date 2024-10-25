@@ -4,45 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Add Pico CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.conditional.jade.min.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="grid">
-        <div>
-          <h4>Titre colonne</h4>
-          <img src="https://source.unsplash.com/random/?blob&orientation=landscape" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptate, quia
-            quod quos voluptas exercitationem quas quibusdam, voluptate, quia quod quos voluptas exercitationem quas
-          </p>
-        </div>
-        <div>
-          <h4>Titre colonne</h4>
-          <img src="https://source.unsplash.com/random/?fish&orientation=landscape" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptate, quia
-            quod quos voluptas exercitationem quas quibusdam, voluptate, quia quod quos voluptas exercitationem quas
-          </p>
-        </div>
-        <div>
-          <h4>Titre colonne</h4>
-          <img src="https://source.unsplash.com/random/?paint&orientation=landscape" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptate, quia
-            quod quos voluptas exercitationem quas quibusdam, voluptate, quia quod quos voluptas exercitationem quas
-          </p>
-        </div>
-        <div>
-          <h4>Titre colonne</h4>
-          <img src="https://source.unsplash.com/random/?tree&orientation=landscape" alt="" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptate, quia
-            quod quos voluptas exercitationem quas quibusdam, voluptate, quia quod quos voluptas exercitationem quas
-          </p>
-        </div>
-      </div>
-    </div>
+    <main class="pico container">
+      <header>
+        <h1>Random Presentation</h1>
+        <p>Using Pico CSS</p>
+      </header>
+      <section>
+        <article>
+          <h2>Introduction</h2>
+          <p>This is a random presentation created using Pico CSS.</p>
+        </article>
+        <article>
+          <h2>Content</h2>
+          <p>Here is some content for the presentation. You can add more sections and articles as needed.</p>
+        </article>
+        <section>
+          <div class="grid">
+            <div class="col">
+              <article>
+                <h4>Column 1</h4>
+              Here is some content
+              </article>
+            </div>
+            <div class="col">
+              <article>
+                <h4>Column 2</h4>
+              Here is some content
+              </article>
+            </div>
+            <div class="col">
+              <article>
+                <h4>Column 3</h4>
+              Here is some content
+              </article>
+          </div>
+        </section>
+        <article>
+          <h2>Conclusion</h2>
+          <p>This is the conclusion of the presentation. Thank you for viewing!</p>
+        </article>
+      </section>
+      <footer>
+        <p>&copy; 2023 Random Presentation</p>
+      </footer>
+    </main>
   </body>
 </html>
